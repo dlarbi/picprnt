@@ -1,6 +1,6 @@
 picprnt
 =======
-
+******Missing a great deal of JS etc that controls parts of this app, will have to dig through other harddrive to find*******
 Instagram application for printing photos based on tags
 
 1) Users make subscription
@@ -20,3 +20,4 @@ The application also supports events, which is neat. You get a cool perspective 
 Although it was just an experiment in building a "complete" webapp, This application is pretty well developed and close to ready for users if launched!  Users can control their account options, make real payments, view their queued photos for printing.
 
 The application is mainly PHP, written almost entirely from scratch, and follows a simple-to-follow MVC pattern to initialize a controller based on URL paths, and call methods to get data from models and render views.
+
