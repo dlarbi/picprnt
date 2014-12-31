@@ -102,8 +102,8 @@ class Controller {
 	// simply loads the about page, also renders IG login button
 	private function action_about() {
 		$instagram = new Instagram(array(
-				'apiKey'      => 'd493cc50ef7e4a7296d2d1c7ca15f19e',
-				'apiSecret'   => '840dbf9dfc36488991f99c6e9ae7fd61',
+				'apiKey'      => 'REDACTED',
+				'apiSecret'   => 'REDACTED',
 				'apiCallback' => 'https://www.picprnt.com/'
 		));
 		$loginUrl   = $instagram->getLoginUrl();
@@ -181,8 +181,8 @@ class Controller {
 	// when users check-in for an event
 	private function action_home() {
 		$instagram = new Instagram(array(
-				'apiKey'      => 'd493cc50ef7e4a7296d2d1c7ca15f19e',
-				'apiSecret'   => '840dbf9dfc36488991f99c6e9ae7fd61',
+				'apiKey'      => 'REDACTED',
+				'apiSecret'   => 'REDACTED',
 				'apiCallback' => 'https://www.picprnt.com/'
 		));
 		
@@ -192,8 +192,8 @@ class Controller {
 		if (true === isset($code)) {
 		  if(true === isset($event)) {
 		      $instagram = new Instagram(array(
-              'apiKey'      => 'd493cc50ef7e4a7296d2d1c7ca15f19e',
-              'apiSecret'   => '840dbf9dfc36488991f99c6e9ae7fd61',
+              'apiKey'      => 'REDACTED',
+              'apiSecret'   => 'REDACTED',
               'apiCallback' => 'https://www.picprnt.com/?state=' . $event
           ));
 
@@ -368,8 +368,8 @@ class Controller {
 	  $model = new Model();
 	  $model->init();
 	  $instagram = new Instagram(array(
-        'apiKey'      => 'd493cc50ef7e4a7296d2d1c7ca15f19e',
-        'apiSecret'   => '840dbf9dfc36488991f99c6e9ae7fd61',
+        'apiKey'      => 'REDACTED',
+        'apiSecret'   => 'REDACTED',
         'apiCallback' => 'https://www.picprnt.com/?state=' . $this->path[0]
     ));
 	  $loginUrl   = $instagram->getLoginUrl();
